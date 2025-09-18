@@ -1,0 +1,10 @@
+
+include:
+  - board: akdk_bt1
+    shield: unicell42
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artificial-name: Unicell42
+  - board: akdk_bt1
+    shield: settings_reset
+    artificial-name: settings_reset-akdk_bt1-zmk

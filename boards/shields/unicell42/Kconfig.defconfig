@@ -1,0 +1,7 @@
+
+if SHIELD_UNICELL42
+
+config ZMK_KEYBOARD_NAME
+    default "unicell42"
+
+endif

@@ -1,0 +1,11 @@
+
+file_format: "1"
+id: unicell42
+name: unicell42
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
