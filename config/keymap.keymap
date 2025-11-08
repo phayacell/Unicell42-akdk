@@ -51,9 +51,9 @@
         qwerty_layer {
             display-name = "QWERTY";
             bindings = <
-&kp GRAVE  &kp Q     &kp W      &kp E         &kp R            &kp T               &kp Y             &kp U            &kp I       &kp O     &kp MINUS  &kp SQT
-&kp TAB    &kp A     &kp S      &hm LALT D    &hm LGUI  F      &kp G               &kp H             &hm RGUI J       &hm RALT K  &kp L     &kp P      &kp SEMI
-&kp LCTRL  &kp Z     &kp X      &kp C         &kp V            &kp B               &kp N             &kp M            &kp COMMA   &kp DOT   &kp FSLH   &kp BSLH
+&kp GRAVE  &kp Q     &kp W      &kp E         &kp R            &kp T               &kp Y             &kp U            &kp I      &kp O     &kp MINUS  &kp SQT
+&kp TAB    &kp A     &kp S      &kp D         &hm LGUI F       &kp G               &kp H             &hm RGUI J       &kp K      &kp L     &kp P      &kp SEMI
+&kp LCTRL  &kp Z     &kp X      &kp C         &hm LALT V       &kp B               &kp N             &hm RALT M       &kp COMMA  &kp DOT   &kp FSLH   &kp BSLH
                                 &hm LGUI ESC  &lt Q_LOW LANG2  &hm LSHIFT SPACE    &hm RSHIFT ENTER  &lt Q_LOW LANG1  &bspc_del
             >;
         };
@@ -61,9 +61,9 @@
         qwerty_lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp TILDE  &kp PLUS   &kp N7  &kp N8       &kp N9           &kp N0       &kp HOME  &kp PG_UP        &kp UP         &kp PG_DN  &kp UNDER  &kp DQT
-&trans     &kp MINUS  &kp N4  &hm LALT N5  &hm LGUI N6      &kp COMMA    &kp END   &hm RGUI LEFT    &hm RALT DOWN  &kp RIGHT  &trans     &kp COLON
-&trans     &kp EQUAL  &kp N1  &kp N2       &kp N3           &kp DOT      &kp LBKT  &kp RBKT         &kp LT         &kp GT     &kp QMARK  &kp PIPE
+&kp TILDE  &kp PLUS   &kp N7  &kp N8       &kp N9           &kp N0       &kp HOME  &kp PG_UP        &kp UP    &kp PG_DN  &kp UNDER  &kp DQT
+&trans     &kp MINUS  &kp N4  &kp N5       &hm LGUI N6      &kp COMMA    &kp END   &hm RGUI LEFT    &kp DOWN  &kp RIGHT  &trans     &kp COLON
+&trans     &kp EQUAL  &kp N1  &kp N2       &hm LALT N3      &kp DOT      &kp LBKT  &hm RALT RBKT    &kp LT    &kp GT     &kp QMARK  &kp PIPE
                               &trans       &lt RAISE LANG2  &trans       &trans    &lt RAISE LANG1  &trans
             >;
         };
@@ -71,9 +71,9 @@
         o24_layer {
             display-name = "O24";
             bindings = <
-&kp GRAVE  &kp Q   &kp L   &kp U         &kp COMMA          &kp DOT             &kp F             &kp W              &kp R       &kp Y   &kp P   &kp SQT
-&kp TAB    &kp E   &kp I   &hm LALT A    &hm LGUI O         &kp MINUS           &kp K             &hm RGUI T         &hm RALT N  &kp S   &kp H   &kp FSLH
-&kp LCTRL  &kp Z   &kp X   &kp C         &kp V              &kp SEMI            &kp G             &kp D              &kp M       &kp J   &kp B   &kp BSLH
+&kp GRAVE  &kp Q   &kp L   &kp U         &kp COMMA          &kp DOT             &kp F             &kp W              &kp R      &kp Y   &kp P   &kp SQT
+&kp TAB    &kp E   &kp I   &kp A         &hm LGUI O         &kp MINUS           &kp K             &hm RGUI T         &kp N      &kp S   &kp H   &kp FSLH
+&kp LCTRL  &kp Z   &kp X   &kp C         &hm LALT V         &kp SEMI            &kp G             &hm RALT D         &kp M      &kp J   &kp B   &kp BSLH
                            &hm RALT ESC  &lt O24_LOW LANG2  &hm LSHIFT SPACE    &hm RSHIFT ENTER  &lt O24_LOW LANG1  &bspc_del
             >;
         };
@@ -81,9 +81,9 @@
         o24_lower_layer {
             display-name = "O24 LO";
             bindings = <
-&kp TILDE  &kp PLUS   &kp N7  &kp N8       &kp N9           &kp N0       &kp HOME  &kp PG_UP        &kp UP         &kp PG_DN  &kp PSCRN  &kp DQT
-&trans     &kp MINUS  &kp N4  &hm LALT N5  &hm LGUI N6      &kp UNDER    &kp END   &hm RGUI LEFT    &hm RALT DOWN  &kp RIGHT  &trans     &kp QMARK
-&trans     &kp EQUAL  &kp N1  &kp N2       &kp N3           &kp COLON    &kp LBKT  &kp RBKT         &kp LT         &kp GT     &trans     &kp PIPE
+&kp TILDE  &kp PLUS   &kp N7  &kp N8       &kp N9           &kp N0       &kp HOME  &kp PG_UP        &kp UP    &kp PG_DN  &kp PSCRN  &kp DQT
+&trans     &kp MINUS  &kp N4  &kp N5       &hm LGUI N6      &kp UNDER    &kp END   &hm RGUI LEFT    &kp DOWN  &kp RIGHT  &trans     &kp QMARK
+&trans     &kp EQUAL  &kp N1  &kp N2       &hm LALT N3      &kp COLON    &kp LBKT  &hm RALT RBKT    &kp LT    &kp GT     &trans     &kp PIPE
                               &trans       &lt RAISE LANG2  &trans       &trans    &lt RAISE LANG1  &trans
             >;
         };
